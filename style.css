@@ -1,0 +1,65 @@
+ body{
+    font-family: 'Nunito Semibold';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.naslov{
+    margin: 70px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 100px;
+    color: purple;
+}
+
+.picker{
+    margin-bottom: 50px;
+    display: flex;
+    gap: 50px;
+    cursor: pointer;   
+    display: flex;
+    align-items: center; 
+}
+
+#content{
+    display: grid;
+    /*grid-template-columns: 30% 20% 50%;*/
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    grid-template-columns: 500px;
+    grid-auto-rows: 500px;
+    margin: 0 auto;
+    border: 20px solid #7f7f;
+    padding: 0px;
+}
+
+#content div{
+    background: #FFFf;   
+}
+.nested{
+    display: grid;
+    grid-auto-rows: auto;
+}
+
+.nested p{
+    margin: 0;
+    cursor: unset;
+}
+
+.line{
+    border: 1px solid rgb(87, 73, 73);
+}
+
+
+.text{
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.border-lines{
+    margin-top: 40px;
+}
